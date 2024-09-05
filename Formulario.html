@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Registro de clientes</title>
+</head>
+
+<body>
+    <h1>Area de inscripción</h1>
+    <h2>Registro</h2>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Información personal</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" required>
+
+            <label for="edad">Fecha de nacimiento:</label>
+            <input type="date" name="edad" id="edad">
+
+            <label for="dni">DNI:</label>
+            <input type="number" name="dni" id="dni" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" name="correo" id="correo" required>
+            <br>
+            <label for="telefono">Número de celular:</label>
+            <input type="tel" name="telefono" id="telefono">
+
+            <label for="provincia">Provincia:</label>
+            <select name="provincia" id="provincia">
+                <option value="buenos aires">Buenos Aires</option>
+                <option value="catamarca">Catamarca</option>
+                <option value="chaco">Chaco</option>
+                <option value="chubut">Chubut</option>
+                <option value="caba">Ciudad Autonoma de Buenos Aires</option>
+                <option value="cordoba">Córdoba</option>
+                <option value="corrientes">Corrientes</option>
+                <option value="entre rios">Entre Ríos</option>
+                <option value="formosa">Formosa</option>
+                <option value="jujuy">Jujuy</option>
+                <option value="pampa">La Pampa</option>
+                <option value="rioja">La Rioja</option>
+                <option value="mendoza">Mendoza</option>
+                <option value="misiones">Misiones</option>
+                <option value="neuquen">Neuquén</option>
+                <option value="rionegro">Río Negro</option>
+                <option value="salta">Salta</option>
+                <option value="juan">San Juan</option>
+                <option value="luis">San Luis</option>
+                <option value="cruz">Santa Cruz</option>
+                <option value="fe">Santa Fe</option>
+                <option value="estero">Santiago del Estero</option>
+                <option value="fuego">Tierra del Fuego</option>
+                <option value="tucuman">Tucumán</option>
+            </select>
+
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" name="ciudad" id="ciudad">
+        </fieldset>
+
+        <fieldset>
+            <legend>Redes sociales</legend>
+            <label for="x">Cuenta de X:</label>
+            <input type="text" name="x" id="x">
+
+            <label for="ig">Cuenta de Instagram:</label>
+            <input type="text" name="ig" id="ig">
+        </fieldset>
+
+        <fieldset>
+            <legend>Intereses personales</legend>
+            <label for="a">Color favorito:</label>
+            <input type="color" name="a" id="a">
+
+            <label for="juego">Videojuego favorito:</label>
+            <input type="text" name="juego" id="juego">
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+
+</html>
